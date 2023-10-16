@@ -360,4 +360,7 @@ nav{
     .footerdetails h3{
         padding-left: -10px;
     }
+    #heading{
+        text-align: center;
+    }
 }
