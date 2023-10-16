@@ -14,6 +14,7 @@ font-family: 'Rubik', sans-serif;
     color: white;
     padding-top: 50px;
     margin-bottom: 0px;   
+    width: 100%;
 }
 #cart p{
     margin-bottom: 15px;
@@ -312,4 +313,51 @@ nav{
 }
 .section1 h5{
     font-size: 20px;
+}
+@media (max-width:400px){
+    .section2, .section3, .section4{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #rate{
+        margin-left: 65px;
+        padding-bottom: 30px;
+    }
+    .grate{
+        padding-bottom: 30px;
+    }
+    .section1, .footer{
+        width: 100%;
+    }
+    .footertoflex img{
+        width: 60px;
+        height: 100px;
+        padding-top: 20px;
+        border-radius: 50%;
+    }
+    .footerdetails, h2{
+        font-size: 12px;
+    }
+    #talk{
+        margin-left: 30px;
+    }
+    nav{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .section1 h1{
+        font-size: 20px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+    }
+    .section1{
+        height: 200px;
+    }
+    .section1 h5{
+        font-size: 16px;
+    }
+    .footerdetails h3{
+        padding-left: -10px;
+    }
 }
